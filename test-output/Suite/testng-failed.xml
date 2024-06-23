@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="com.himalaya.tests.OurResearchTest">
+        <methods>
+          <include name="captureScreenshotOfFail"/>
+          <include name="testOurScience"/>
+          <include name="testResearchheart"/>
+          <include name="testAyurveda"/>
+          <include name="testInnovationpersonal"/>
+          <include name="testInnovationhealth"/>
+          <include name="teardown"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.himalaya.tests.OurResearchTest -->
+      <class name="com.himalaya.tests.AboutUsTest">
+        <methods>
+          <include name="captureScreenshotOfFail"/>
+          <include name="testPartners"/>
+          <include name="testCareers"/>
+          <include name="testCooperateProfile"/>
+          <include name="teardown"/>
+          <include name="testMedia"/>
+          <include name="before"/>
+          <include name="testLeadership"/>
+        </methods>
+      </class> <!-- com.himalaya.tests.AboutUsTest -->
+      <class name="com.himalaya.tests.HimalayaGlobalTest">
+        <methods>
+          <include name="captureScreenshotOfFail"/>
+          <include name="testLinks"/>
+          <include name="testHimalayaGlobal"/>
+          <include name="teardown"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.himalaya.tests.HimalayaGlobalTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.himalaya.tests.SearchTest"/>
+      <class name="com.himalaya.tests.ProductTest"/>
+      <class name="com.himalaya.tests.AboutUsTest"/>
+      <class name="com.himalaya.tests.OurResearchTest"/>
+      <class name="com.himalaya.tests.StoreLocatorTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
